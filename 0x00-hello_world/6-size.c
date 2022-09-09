@@ -7,13 +7,13 @@
  */
 int main(void)
 {
+	char d;
+
 	int a;
 
-	long b;
+	long c;
 
-	long long c;
-
-	char d;
+	long long b;
 
 	float f;
 
