@@ -11,9 +11,9 @@ int main(void)
 
 	int a;
 
-	long c;
+	long int c;
 
-	long long b;
+	long long int b;
 
 	float f;
 
