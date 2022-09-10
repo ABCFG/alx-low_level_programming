@@ -17,3 +17,4 @@ if (alpha != 'q' && alpha != 'e')
 }
 putchar('\n');
 return (0);
+}
