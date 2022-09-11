@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-unsigned char i;
+signed char i;
 for (i = 0; i < 10; i++)
 {
 	putchar(i);
