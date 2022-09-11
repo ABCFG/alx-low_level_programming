@@ -11,7 +11,7 @@ int l1;
 int l2;
 for (l1 = 1; l1 <= 10; l1++)
 {
-	for (l2 = 1; l2 <= 10; l2++)
+	for (l2 = 1; l2 < 9; l2++)
 	{
 		putchar(l1 % 10 + '0');
 		putchar(l2 % 10 + '0');
