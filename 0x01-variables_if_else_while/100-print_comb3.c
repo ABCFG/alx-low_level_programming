@@ -9,7 +9,7 @@ int main(void)
 {
 int l1;
 int l2;
-for (l1 = 0; l1 < 10; l1++)
+for (l1 = 1; l1 <= 10; l1++)
 {
 	for (l2 = 1; l2 <= 10; l2++)
 	{
