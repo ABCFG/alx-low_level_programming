@@ -17,7 +17,7 @@ for (l1 = 0; l1 < 10; l1++)
 		putchar(l2 % 10 + '0');
 
 		if (l1 == 99 && l2 == 99)
-			continue;
+			break;
 
 		putchar(',');
 		putchar(' ');
