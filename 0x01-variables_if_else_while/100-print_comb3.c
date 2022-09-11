@@ -22,6 +22,7 @@ for (l1 = 0; l1 < 10; l1++)
 		putchar(',');
 		putchar(' ');
 	}
+}
 putchar('\n');
 return (0);
 }
