@@ -1,4 +1,4 @@
-#include<main.h>
+#include "main.h"
 #include<stdio.h>
 
 /**
@@ -6,8 +6,14 @@
  *
  * Return: Always Success
  */
-int main(void)
+void main(void)
 {
-	printf("_putchar\n");
+	char *complete = "_putchar";
+
+	while (*complete)
+	{
+		putchar(*complete);
+	}
+	putchar('\n');
 	return (0);
 }
