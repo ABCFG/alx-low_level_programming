@@ -5,14 +5,17 @@
  *
  * Return: Always Success
  */
-void main(void)
+int  main(void)
 {
-	char *complete = "_putchar";
+	_putchar('_');
+	__putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	while (*complete)
-	{
-		putchar(*complete);
-	}
-	putchar('\n');
 	return (0);
 }
