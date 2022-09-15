@@ -2,7 +2,6 @@
 
 /**
 * main - Function to comment section that causes infinite loop.
-*
 * Return: 0
 */
 
@@ -19,7 +18,7 @@ i = 0;
 * putchar(i);
 * }
 */
-printf("Infinite loop avoider \\o/\n");
+printf("Infinite loop avoided \\o/\n");
 
 return (0);
 }
