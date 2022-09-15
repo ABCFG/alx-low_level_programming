@@ -1,10 +1,10 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - Function to comment section that causes infinite loop.
- *
- * Return: 0
- */
+* main - Function to comment section that causes infinite loop.
+*
+* Return: 0
+*/
 
 int main(void)
 {
@@ -14,11 +14,11 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 /*
- * while ( i < 10)
- * {
- * putchar(i);
- * }
- */
+* while ( i < 10)
+* {
+* putchar(i);
+* }
+*/
 printf("Infinite loop avoider \\o/\n");
 
 return (0);
