@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
-*print_most_numbers - Print between 0 to 9 ecept 2 and 4
+*print_most_numbers - print numbers except 2 and 4
 *
-*Return : returns 0
+*Return: Always 0
 */
 
 void print_most_numbers(void)
@@ -13,11 +13,11 @@ void print_most_numbers(void)
 
 	for (n = 48; n < 58; n++)
 	{
-		if ((n == 50 || n == 52))
+		if ((n == 50) || (n == 52))
 		{
 			continue;
 		}
-		purchar(n);
+		putchar(n);
 	}
 	putchar(10);
 }
