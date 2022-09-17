@@ -12,7 +12,8 @@ void print_numbers(void)
 
 	for (n = 48; n < 58; n++)
 	{
-		putchar(n);
+		_putchar(n);
 	}
-	return (10);
+	return (0);
+	_putchar('\n');
 }
