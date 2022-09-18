@@ -1,11 +1,13 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * print_line - function to print strt line
- * @n: is the parameter in the function
- *
- * Return: Always 0
+ * @n: input number of times to print '_'
+ * Return: a straight line
  */
+
 void print_line(int n)
 {
 	int line;
@@ -16,7 +18,7 @@ void print_line(int n)
 	}
 	else
 	{
-		for (line = 0; line <= n; line++)
+		for (line = 1; line <= n; line++)
 		{
 			_putchar('_');
 		}
