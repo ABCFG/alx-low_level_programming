@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
  * print_triangle - Function to print a traingler
@@ -7,6 +7,8 @@
  *
  * Return: returns a traingle
  */
+
+
 void print_triangle(int size)
 {
 	int i, j;
