@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * more_numbers - print number 1-14 ten times
- * _putchar to be use not morethan 3times
- *Return: return from 1-14 ten times follow by new line
- */
+*more_numbers - print number 1-14 ten times
+*_putchar to be use not morethan 3times
+*Return: return from 1-14 ten times follow by new line
+*/
 void more_numbers(void)
 {
 	int r, a;
