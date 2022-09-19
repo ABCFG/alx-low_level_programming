@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
  * *_strcpy - Function to copy string
@@ -15,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 
 	while (*src)
 	{
-	*dest++;
+	*dest++ = *src++;
 	*dest = 0;
 	}
 	return (guard);
