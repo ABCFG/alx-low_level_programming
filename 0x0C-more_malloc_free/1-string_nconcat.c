@@ -6,7 +6,6 @@
  * @s1: first string to copy
  * @s2: second string to copy
  * @n: number of bytes s2 to copy
- *
  * Return: char pointer to newly allocated place in memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
