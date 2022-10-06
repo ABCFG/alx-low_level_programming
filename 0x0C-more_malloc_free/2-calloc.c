@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
- *simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ *_calloc - allocates memory for an array, using malloc
+ *@nmemb: number of elements in the array
+ *size: size in bytes of the elements
  * Return: Nothing.
  */
 
